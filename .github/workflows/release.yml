@@ -28,7 +28,7 @@ jobs:
         run: dotnet pack ./OptionalAndNullable.Standard/OptionalAndNullable.Standard.csproj -c release -p:PackageVersion=${{ github.event.inputs.Version }}
         
       - name: Push To NuGet
-        run: dotnet nuget push ./OptionalAndNullable.Standard/bin/release/Asad.OptionalNullable.${{ github.event.inputs.Version }}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://github.com/asadali214/optional-nullable/actions/workflows/release.yml
+        run: dotnet nuget push ./OptionalAndNullable.Standard/bin/release/Asad.OptionalNullable.${{ github.event.inputs.Version }}.nupkg -k ${{ secrets.NUGET_API_KEY }} -s nuget.org
         
       - name: Create Tag
         id: tag_version
