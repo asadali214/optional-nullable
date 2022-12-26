@@ -17,7 +17,7 @@
     <Copyright>Copyright ©  2022</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>Alpha Release 0.1.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Release notes are available at: https://github.com/asadali214/optional-nullable/releases</PackageReleaseNotes>
     <PackageTags>APIMatic;optional;nullable;models</PackageTags>
     <PackageProjectUrl>https://www.apimatic.io</PackageProjectUrl>
     <LangVersion>7.3</LangVersion>
